@@ -51,6 +51,6 @@ struct ColorBasic_Previews: PreviewProvider {
     static var previews: some View {
         ColorBasic()
         // 다크모드
-            //.preferredColorScheme(.dark)
+            .preferredColorScheme(.dark)
     }
 }
